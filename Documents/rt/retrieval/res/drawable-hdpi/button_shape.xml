@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+     android:shape="oval" > 
+    //There are many other shapes also available they are rectangle,ring,line and oval
+    <solid android:color="#66ccff"/> //applying the colour to the button.
+    <stroke android:width="2dp" 
+            android:color="#00ffff"/>
+       <corners android:bottomLeftRadius="8dp"  
+             android:bottomRightRadius="8dp"
+             android:topLeftRadius="8dp"
+             android:topRightRadius="8dp"/> "
+
+    
+
+</shape>
+

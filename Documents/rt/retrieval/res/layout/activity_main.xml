@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#99ffff">
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/button1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="44dp"
+    android:background="@drawable/button_shape"
+    android:padding="30dip"
+    android:text="Click to Locate Staff" />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/imageView1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="80dp"
+    android:background="@drawable/button_shape"
+    android:padding="30dip"
+    android:text="Click to Locate Class" />
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="250dp"
+    android:layout_height="100dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/logo" />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/magnifier2" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
